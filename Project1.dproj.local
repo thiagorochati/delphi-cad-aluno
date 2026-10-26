@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/03/20 19:56:57.000.787,=C:\Users\Thiago\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/02/21 21:25:08.000.985,=C:\Users\Thiago\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/04/01 22:10:59.000.897,=C:\Users\Thiago\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/04/02 20:09:51.000.743,=C:\Users\Thiago\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/04/11 19:28:02.000.276,=C:\Users\Thiago\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/06/04 19:59:40.000.934,=C:\Users\Thiago\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2025/03/02 15:06:08.000.903,=C:\Users\Thiago\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2025/03/02 15:40:58.000.328,=C:\Users\Thiago\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2026/03/30 21:33:01.000.504,=C:\Users\Thiago\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2026/10/19 19:34:43.000.126,=C:\Users\Thiago\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2026/10/19 19:49:34.000.314,C:\Users\Thiago\Documents\Embarcadero\Studio\Projects\Unit1.fmx=C:\Users\Thiago\Desktop\Repeticao\Unit1.fmx</Transaction>
+    <Transaction>2026/10/19 19:49:34.000.314,C:\Users\Thiago\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\Thiago\Desktop\Repeticao\Unit1.pas</Transaction>
+    <Transaction>2026/10/19 19:49:35.000.596,C:\Users\Thiago\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\Thiago\Desktop\Repeticao\Project1.dproj</Transaction>
+    <Transaction>2026/10/19 19:49:59.000.789,=C:\Users\Thiago\Desktop\Repeticao\Unit2.pas</Transaction>
+    <Transaction>2026/10/19 19:53:25.000.233,C:\Users\Thiago\Desktop\Repeticao\Unit2.pas=C:\Users\Thiago\Desktop\Repeticao\UFrameAluno.pas</Transaction>
+    <Transaction>2026/10/19 19:53:25.000.233,C:\Users\Thiago\Desktop\Repeticao\Unit2.fmx=C:\Users\Thiago\Desktop\Repeticao\UFrameAluno.fmx</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile Android64="RQ8M40GJ19P" Android="RQ8M40GJ19P"/>
+	</ActiveMobileDevice>
+</BorlandProject>

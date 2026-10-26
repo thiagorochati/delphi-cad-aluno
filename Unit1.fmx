@@ -1,0 +1,371 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 517
+  ClientWidth = 403
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object TabControl1: TTabControl
+    Align = Client
+    Size.Width = 403.00000000000000000
+    Size.Height = 517.00000000000000000
+    Size.PlatformDefault = False
+    TabIndex = 0
+    TabOrder = 0
+    TabPosition = PlatformDefault
+    Sizes = (
+      403s
+      491s
+      403s
+      491s)
+    object TabItem1: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = True
+      Size.Width = 69.00000000000000000
+      Size.Height = 26.00000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'TabItem1'
+      object VertAluno: TVertScrollBox
+        Align = Client
+        Size.Width = 403.00000000000000000
+        Size.Height = 381.00000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        Viewport.Width = 403.00000000000000000
+        Viewport.Height = 381.00000000000000000
+      end
+      object Rectangle1: TRectangle
+        Align = Bottom
+        Fill.Color = xFF028263
+        Margins.Left = 5.00000000000000000
+        Margins.Top = 5.00000000000000000
+        Margins.Right = 5.00000000000000000
+        Margins.Bottom = 5.00000000000000000
+        Position.X = 5.00000000000000000
+        Position.Y = 436.00000000000000000
+        Size.Width = 393.00000000000000000
+        Size.Height = 50.00000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+        XRadius = 10.00000000000000000
+        YRadius = 10.00000000000000000
+        OnClick = Rectangle1Click
+        object Label1: TLabel
+          StyledSettings = [Family]
+          Position.X = 136.00000000000000000
+          Position.Y = 16.00000000000000000
+          TextSettings.Font.Size = 16.00000000000000000
+          TextSettings.Font.StyleExt = {00060000000100000004000000}
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = 'Inserir'
+          TabOrder = 0
+        end
+      end
+      object Rectangle2: TRectangle
+        Align = Top
+        Fill.Color = claWhite
+        Size.Width = 403.00000000000000000
+        Size.Height = 50.00000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+        object Image1: TImage
+          MultiResBitmap.Height = 32
+          MultiResBitmap.Width = 32
+          MultiResBitmap = <
+            item
+              Width = 32
+              Height = 32
+              PNG = {
+                89504E470D0A1A0A0000000D4948445200000020000000200806000000737A7A
+                F40000000473424954080808087C086488000003BE494441545885ED974D685C
+                5514C77FE7BEC987A90541B4C63A56104570A1481725865815145A71A1C64D2D
+                A433D3E9A6F1033F17EDE4CE380AB55644DB826966AC222206B4F801425A1752
+                3F51A85270232E120D6A57A112633BEF1C17E663DECB7C6426DDE97FF5DEB9E7
+                9CFFFFDEF3EE79F7C27F1DD272C4FEED6B12B35D7D26BADEE04AC48928D3E2F4
+                D74A9838891F9DBDF0020C098A99FBD56C87C01D40771DCF3983CF9CC9E13037
+                F60182AD5E40313D10841C3061E38AC42E653EA5C66E72A5CFDB16E00A992CD8
+                2120D112F9122A983CA7765501EFB59643DDC4AE907E156C7783E406FC3EFF7C
+                39E06AE537B19B1B15A25610AE907A14A8453E071C5474B36AB25373A55ECD95
+                7A55935D8A6E060ECFFB2CE03BBBE8DCB67AB3A766098AE901A77C0A04B1E94E
+                581864C88F4ED69F0F50DC911495A3825CA76A9BF0E5E946EED1153024083910
+                2747A4649ADCD2941C60CFEB5376C3D9BB340CFA9B91135F81E0D9CC0366361E
+                D5C48469720BDE579A923740904F6F35E46E1D197BB8DA1E5901354BC5E2E62C
+                0C32AB25C7EFB8C58477101B7685F413B505ECDFBE46E0F648A0596945CBDE08
+                C5F406E7DC47C0C5F3967D4121F5E0320189D9AEBE7887538996A365F8A14B9C
+                F231D05B657586BC4131D51F1160A2EB63E1CABA8E2FDA271FEC1417BC07DC58
+                63B4DBA91CC3EFBCBE4A80F4C69CCEB06BF47CBBFCCEADCD2F2B6914973AA7EF
+                2712F9F49D2A72AD99F5C79A42F06F2B06553D8E2FFFDC8A0031396922EF2226
+                18F7025D4B839C067EC4F8415C21FD077059E37436AAB9F2AE56042CC2677B9C
+                0BCF56975BCC32E148B904E0C4480361831493AAE4DB220748841BE3DB3D14FB
+                69E1D98523A50F1179A44EF88C2A5B57D2D1EAC1190FC54C7FD3D9716A711C40
+                F78E1D025E8C399E772683F8D2E976C929A637606CAB36197CC233A333110100
+                AAC9A71116F6BD89B1B3323236D136B9F709514A404FB5D989BC55FD1EFDF0FD
+                5077E082E32636A17BCBEDD7DDFB8473534780A10899F14D982B6DAA3EAA2DFF
+                1DEF4BADE5A9F29F91F39CCFF638099F570D5E6ADA9A47B2574B101EADD10342
+                756E803D4722CDADF999D07B276E6A5CE03E6016E44D85B7D199AFF1E3E70078
+                2DDB91F8ADD2AFC820422AB2E717618F69AEFC72DCDA5480CB675E40ECC91A43
+                15E0CC7C8E754D721DD45C69B8D640630185D44D0EF976558752E471CD8DBD52
+                CFA1E6997011B9F2F7EAB875BE75B60431BE52E76E6B44CE8A2F26DEBB2098BC
+                47CD0D0B360074D649F797A1279C510E73E56317E662B24C4CB6271154FACCE4
+                1A832B104251A6057EA958F065AB57B3FFF10FBF816C0565E7DB720000000049
+                454E44AE426082}
+              FileName = 'C:\Users\Thiago\Downloads\refresh (1).png'
+            end>
+          Align = Right
+          Margins.Right = 10.00000000000000000
+          Position.X = 343.00000000000000000
+          Size.Width = 50.00000000000000000
+          Size.Height = 48.00000000000000000
+          Size.PlatformDefault = False
+          WrapMode = Center
+          OnClick = Image1Click
+        end
+        object Rectangle3: TRectangle
+          Align = Bottom
+          Fill.Color = xFF028263
+          Position.Y = 48.00000000000000000
+          Size.Width = 403.00000000000000000
+          Size.Height = 2.00000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+        end
+        object Label2: TLabel
+          Align = Left
+          StyledSettings = [Family]
+          Position.X = 55.00000000000000000
+          Size.Width = 120.00000000000000000
+          Size.Height = 48.00000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 18.00000000000000000
+          TextSettings.Font.StyleExt = {00060000000000000004000000}
+          TextSettings.FontColor = xFF028263
+          Text = 'Alunos'
+          TabOrder = 2
+        end
+        object Image2: TImage
+          MultiResBitmap.Height = 24
+          MultiResBitmap.Width = 24
+          MultiResBitmap = <
+            item
+              Width = 24
+              Height = 24
+              PNG = {
+                89504E470D0A1A0A0000000D4948445200000018000000180806000000E0773D
+                F80000000473424954080808087C086488000000E5494441544889ED94310E01
+                511086FFF7DE3AC23A83828642BD68242E211A672061A3D8338864C319341A12
+                07502ADC8070046F67148208BB9235A2D9BF7DC9F725F3FE1920CBBFA3125FFD
+                6E5E1BBB50C4361A86D534029D0C3FAFC05C660593061E2F08DAAED676094611
+                E01D51D44A2B781D51D076B5352B804B573879F06707198130FC59F003F843F0
+                23F85DA0479D0D808A04F01606D63C08BDF89A0AC5010072A8F93422E3D4D09F
+                EC2504F19F2C2449AEA980E4F3A27D29797FEC0425EF5BD49B9E889C0614B680
+                2A181BCDD3C0E30500E08F8F14E5EA8AB121C5224B97E53FB900A2B0883EBD6E
+                3F3D0000000049454E44AE426082}
+              FileName = 'C:\Users\Thiago\Downloads\back.png'
+            end>
+          Align = Left
+          Margins.Left = 5.00000000000000000
+          Position.X = 5.00000000000000000
+          Size.Width = 50.00000000000000000
+          Size.Height = 48.00000000000000000
+          Size.PlatformDefault = False
+          WrapMode = Center
+        end
+      end
+    end
+    object TabItem2: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 69.00000000000000000
+      Size.Height = 26.00000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'TabItem2'
+      object Rectangle4: TRectangle
+        Align = Top
+        Fill.Color = claWhite
+        Size.Width = 403.00000000000000000
+        Size.Height = 50.00000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+        object Rectangle5: TRectangle
+          Align = Bottom
+          Fill.Color = xFF028263
+          Position.Y = 48.00000000000000000
+          Size.Width = 403.00000000000000000
+          Size.Height = 2.00000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+        end
+        object Label3: TLabel
+          Align = Left
+          StyledSettings = [Family]
+          Position.X = 55.00000000000000000
+          Size.Width = 258.00000000000000000
+          Size.Height = 48.00000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Size = 18.00000000000000000
+          TextSettings.Font.StyleExt = {00060000000000000004000000}
+          TextSettings.FontColor = xFF028263
+          Text = 'Inserindo Alunos'
+          TabOrder = 2
+        end
+        object Image4: TImage
+          MultiResBitmap.Height = 24
+          MultiResBitmap.Width = 24
+          MultiResBitmap = <
+            item
+              Width = 24
+              Height = 24
+              PNG = {
+                89504E470D0A1A0A0000000D4948445200000018000000180806000000E0773D
+                F80000000473424954080808087C086488000000E5494441544889ED94310E01
+                511086FFF7DE3AC23A83828642BD68242E211A672061A3D8338864C319341A12
+                07502ADC8070046F67148208BB9235A2D9BF7DC9F725F3FE1920CBBFA3125FFD
+                6E5E1BBB50C4361A86D534029D0C3FAFC05C660593061E2F08DAAED676094611
+                E01D51D44A2B781D51D076B5352B804B573879F06707198130FC59F003F843F0
+                23F85DA0479D0D808A04F01606D63C08BDF89A0AC5010072A8F93422E3D4D09F
+                EC2504F19F2C2449AEA980E4F3A27D29797FEC0425EF5BD49B9E889C0614B680
+                2A181BCDD3C0E30500E08F8F14E5EA8AB121C5224B97E53FB900A2B0883EBD6E
+                3F3D0000000049454E44AE426082}
+              FileName = 'C:\Users\Thiago\Downloads\back.png'
+            end>
+          Align = Left
+          Margins.Left = 5.00000000000000000
+          Position.X = 5.00000000000000000
+          Size.Width = 50.00000000000000000
+          Size.Height = 48.00000000000000000
+          Size.PlatformDefault = False
+          WrapMode = Center
+          OnClick = Image4Click
+        end
+      end
+      object Rectangle6: TRectangle
+        Align = Top
+        Fill.Kind = None
+        Margins.Left = 15.00000000000000000
+        Margins.Top = 15.00000000000000000
+        Margins.Right = 15.00000000000000000
+        Position.X = 15.00000000000000000
+        Position.Y = 65.00000000000000000
+        Size.Width = 373.00000000000000000
+        Size.Height = 50.00000000000000000
+        Size.PlatformDefault = False
+        Stroke.Color = xFFB5CEC8
+        XRadius = 15.00000000000000000
+        YRadius = 15.00000000000000000
+        object Label4: TLabel
+          Align = Top
+          StyledSettings = [Family, Size, Style]
+          Margins.Left = 10.00000000000000000
+          Margins.Top = 2.00000000000000000
+          Position.X = 10.00000000000000000
+          Position.Y = 2.00000000000000000
+          Size.Width = 363.00000000000000000
+          Size.Height = 17.00000000000000000
+          Size.PlatformDefault = False
+          TextSettings.FontColor = xFF028263
+          Text = 'Nome do aluno'
+          TabOrder = 0
+        end
+        object Edit3: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          Align = Client
+          StyleLookup = 'transparentedit'
+          TabOrder = 1
+          Margins.Left = 10.00000000000000000
+          Margins.Right = 10.00000000000000000
+          Size.Width = 353.00000000000000000
+          Size.Height = 31.00000000000000000
+          Size.PlatformDefault = False
+          TextPrompt = 'Digite o nome do aluno'
+        end
+      end
+      object Rectangle7: TRectangle
+        Align = Top
+        Fill.Kind = None
+        Margins.Left = 15.00000000000000000
+        Margins.Top = 15.00000000000000000
+        Margins.Right = 15.00000000000000000
+        Position.X = 15.00000000000000000
+        Position.Y = 130.00000000000000000
+        Size.Width = 373.00000000000000000
+        Size.Height = 50.00000000000000000
+        Size.PlatformDefault = False
+        Stroke.Color = xFFB5CEC8
+        XRadius = 15.00000000000000000
+        YRadius = 15.00000000000000000
+        object Label5: TLabel
+          Align = Top
+          StyledSettings = [Family, Size, Style]
+          Margins.Left = 10.00000000000000000
+          Margins.Top = 2.00000000000000000
+          Position.X = 10.00000000000000000
+          Position.Y = 2.00000000000000000
+          Size.Width = 363.00000000000000000
+          Size.Height = 17.00000000000000000
+          Size.PlatformDefault = False
+          TextSettings.FontColor = xFF028263
+          Text = 'E-mail do aluno'
+          TabOrder = 0
+        end
+        object Edit4: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          Align = Client
+          StyleLookup = 'transparentedit'
+          TabOrder = 1
+          Margins.Left = 10.00000000000000000
+          Margins.Right = 10.00000000000000000
+          Size.Width = 353.00000000000000000
+          Size.Height = 31.00000000000000000
+          Size.PlatformDefault = False
+          TextPrompt = 'Digite o email do aluno'
+        end
+      end
+      object Rectangle8: TRectangle
+        Align = Bottom
+        Fill.Color = xFF028263
+        Margins.Left = 5.00000000000000000
+        Margins.Top = 5.00000000000000000
+        Margins.Right = 5.00000000000000000
+        Margins.Bottom = 5.00000000000000000
+        Position.X = 5.00000000000000000
+        Position.Y = 436.00000000000000000
+        Size.Width = 393.00000000000000000
+        Size.Height = 50.00000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+        XRadius = 10.00000000000000000
+        YRadius = 10.00000000000000000
+        object Label6: TLabel
+          StyledSettings = [Family]
+          Position.X = 136.00000000000000000
+          Position.Y = 16.00000000000000000
+          TextSettings.Font.Size = 16.00000000000000000
+          TextSettings.Font.StyleExt = {00060000000100000004000000}
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Center
+          Text = 'Gravar'
+          TabOrder = 0
+        end
+      end
+    end
+  end
+  object ActionList1: TActionList
+    Left = 344
+    Top = 404
+    object MudaAba: TChangeTabAction
+      Category = 'Tab'
+    end
+  end
+end
