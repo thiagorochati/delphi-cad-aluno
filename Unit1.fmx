@@ -7,13 +7,14 @@ object Form1: TForm1
   FormFactor.Width = 320
   FormFactor.Height = 480
   FormFactor.Devices = [Desktop]
+  OnShow = FormShow
   DesignerMasterStyle = 0
   object TabControl1: TTabControl
     Align = Client
     Size.Width = 403.00000000000000000
     Size.Height = 517.00000000000000000
     Size.PlatformDefault = False
-    TabIndex = 0
+    TabIndex = 1
     TabOrder = 0
     TabPosition = PlatformDefault
     Sizes = (
@@ -25,13 +26,15 @@ object Form1: TForm1
       CustomIcon = <
         item
         end>
-      IsSelected = True
+      IsSelected = False
       Size.Width = 69.00000000000000000
       Size.Height = 26.00000000000000000
       Size.PlatformDefault = False
       StyleLookup = ''
       TabOrder = 0
       Text = 'TabItem1'
+      ExplicitSize.cx = 69.00000000000000000
+      ExplicitSize.cy = 26.00000000000000000
       object VertAluno: TVertScrollBox
         Align = Client
         Size.Width = 403.00000000000000000
@@ -184,13 +187,15 @@ object Form1: TForm1
       CustomIcon = <
         item
         end>
-      IsSelected = False
+      IsSelected = True
       Size.Width = 69.00000000000000000
       Size.Height = 26.00000000000000000
       Size.PlatformDefault = False
       StyleLookup = ''
       TabOrder = 0
       Text = 'TabItem2'
+      ExplicitSize.cx = 69.00000000000000000
+      ExplicitSize.cy = 26.00000000000000000
       object Rectangle4: TRectangle
         Align = Top
         Fill.Color = claWhite
@@ -257,7 +262,7 @@ object Form1: TForm1
         Margins.Top = 15.00000000000000000
         Margins.Right = 15.00000000000000000
         Position.X = 15.00000000000000000
-        Position.Y = 65.00000000000000000
+        Position.Y = 130.00000000000000000
         Size.Width = 373.00000000000000000
         Size.Height = 50.00000000000000000
         Size.PlatformDefault = False
@@ -278,7 +283,7 @@ object Form1: TForm1
           Text = 'Nome do aluno'
           TabOrder = 0
         end
-        object Edit3: TEdit
+        object EditNome: TEdit
           Touch.InteractiveGestures = [LongTap, DoubleTap]
           Align = Client
           StyleLookup = 'transparentedit'
@@ -298,7 +303,7 @@ object Form1: TForm1
         Margins.Top = 15.00000000000000000
         Margins.Right = 15.00000000000000000
         Position.X = 15.00000000000000000
-        Position.Y = 130.00000000000000000
+        Position.Y = 195.00000000000000000
         Size.Width = 373.00000000000000000
         Size.Height = 50.00000000000000000
         Size.PlatformDefault = False
@@ -319,7 +324,7 @@ object Form1: TForm1
           Text = 'E-mail do aluno'
           TabOrder = 0
         end
-        object Edit4: TEdit
+        object EditEmail: TEdit
           Touch.InteractiveGestures = [LongTap, DoubleTap]
           Align = Client
           StyleLookup = 'transparentedit'
@@ -347,6 +352,7 @@ object Form1: TForm1
         Stroke.Kind = None
         XRadius = 10.00000000000000000
         YRadius = 10.00000000000000000
+        OnClick = Rectangle8Click
         object Label6: TLabel
           StyledSettings = [Family]
           Position.X = 136.00000000000000000
@@ -359,13 +365,66 @@ object Form1: TForm1
           TabOrder = 0
         end
       end
+      object Rectangle9: TRectangle
+        Align = Top
+        Fill.Kind = None
+        Margins.Left = 15.00000000000000000
+        Margins.Top = 15.00000000000000000
+        Margins.Right = 15.00000000000000000
+        Position.X = 15.00000000000000000
+        Position.Y = 65.00000000000000000
+        Size.Width = 373.00000000000000000
+        Size.Height = 50.00000000000000000
+        Size.PlatformDefault = False
+        Stroke.Color = xFFB5CEC8
+        XRadius = 15.00000000000000000
+        YRadius = 15.00000000000000000
+        object Label7: TLabel
+          Align = Top
+          StyledSettings = [Family, Size, Style]
+          Margins.Left = 10.00000000000000000
+          Margins.Top = 2.00000000000000000
+          Position.X = 10.00000000000000000
+          Position.Y = 2.00000000000000000
+          Size.Width = 363.00000000000000000
+          Size.Height = 17.00000000000000000
+          Size.PlatformDefault = False
+          TextSettings.FontColor = xFF028263
+          Text = 'RM do aluno'
+          TabOrder = 0
+        end
+        object EditRM: TEdit
+          Touch.InteractiveGestures = [LongTap, DoubleTap]
+          Align = Client
+          StyleLookup = 'transparentedit'
+          TabOrder = 1
+          Margins.Left = 10.00000000000000000
+          Margins.Right = 10.00000000000000000
+          Size.Width = 353.00000000000000000
+          Size.Height = 31.00000000000000000
+          Size.PlatformDefault = False
+          TextPrompt = 'Digite o RM do aluno'
+        end
+      end
     end
   end
   object ActionList1: TActionList
-    Left = 344
-    Top = 404
+    Left = 336
+    Top = 380
     object MudaAba: TChangeTabAction
       Category = 'Tab'
     end
+  end
+  object FDConnection: TFDConnection
+    Params.Strings = (
+      'DriverID=SQLite')
+    AfterConnect = FDConnectionAfterConnect
+    Left = 40
+    Top = 336
+  end
+  object QDados: TFDQuery
+    Connection = FDConnection
+    Left = 120
+    Top = 336
   end
 end
